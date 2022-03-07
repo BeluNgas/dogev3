@@ -29,13 +29,13 @@
 
 ## `CHANGE SESSION`
 
-[`Click Here`](https://github.com/DGXeon/DogeBot2/blob/master/session.json#L1)
+[`Click Here`](https://github.com/BeluNgas/dogev3/blob/master/session.json#L1)
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L6)
-- CHANGE OWNER NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L7)
-- CHANGE BOT NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L8)
+- CHANGE OWNER NUMBER [Here](https://github.com/BeluNgas/dogev3/blob/master/setting/setting.json#L6)
+- CHANGE OWNER NAME [Here](https://github.com/BeluNgas/dogev3/blob/master/setting/setting.json#L7)
+- CHANGE BOT NAME [Here](https://github.com/BeluNgas/dogev3/blob/master/setting/setting.json#L8)
 
 ## ` BUILDPACKS`
 
@@ -57,7 +57,7 @@ heroku/nodejs
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-🦄 git clone https://github.com/DGXeon/DogeBot.git
+🦄 git clone https://github.com/BeluNgas/dogev3.git
 🦄 cd DogeBot3
 🦄 npm start
 ```
@@ -74,7 +74,7 @@ heroku/nodejs
 🦄 pkg install ffmpeg -y 
 🦄 pkg install wget
 🦄 pkg install imagemagick -y
-🦄 git clone https://github.com/DGXeon/DogeBot2
+🦄 git clone https://github.com/BeluNgas/dogev3
 🦄 cd DogeBot3
 🦄 ls
 🦄 rm -rf session.json
