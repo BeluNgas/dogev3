@@ -613,7 +613,7 @@ menu =
 │⎙${gaya1} Autoread : ${autoread ? "Active" : "Off"}
 │⎙${gaya1} Autotype : ${autoketik ? "Active" : "Off"}
 │⎙${gaya1} Autovn : ${autovn ? "Active" : "Off"}
-└─────────────────┈❏ /n /n /n /n /n
+└─────────────────┈❏ \n \n \n \n \n \n
 
 TQ TO ALLAH SWT
 TQ TO PARENTS,god blees you
