@@ -103,7 +103,7 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       anu_user = v.vname || v.notify || num.split('@')[0]
       time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
       time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
-      teks = ` ╭─────────────────✎ \n ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ _*${mdata.subject}*_ \n ╰─▗ \n │🐦ᴴⁱ _*@${num.split('@')[0]}*_ \n │🐦ʙɪᴏ : _*${thu.status}*_ \n │🐦ᴍᴇᴍʙᴇʀ : _*${memeg}*_ /n ╰───────────────🥀`
+      teks = ` ╭─────────────────✎ \n ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ _*${mdata.subject}*_ \n ╰─▗ \n │🐦ᴴⁱ _*@${num.split('@')[0]}*_ \n │🐦ʙɪᴏ : _*${thu.status}*_ \n │🐦ᴍᴇᴍʙᴇʀ : _*${memeg}*_ \n ╰───────────────🥀`
       welcomeBut = [{buttonId:`#menu`,buttonText:{displayText:'⎙MENU️'},type:1}, {buttonId:`#getdesc`,buttonText:{displayText:'READ DESC 📋'},type:1}]
       welcomeButt = { contentText: `${teks}`, footerText: `𝘿𝙤𝙜𝙚 𝘽𝙤𝙩`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
