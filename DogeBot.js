@@ -1498,13 +1498,7 @@ menu =
 
 \`\`\`OPEN FOR STUDENTS :\`\`\`
 ➪ *Ordinary student :* _ask owner_
-➪ *Premium student :* _ask owner_
-
-\`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: Free! Just chat owner_
-
-For those who want to buy script or interested in any of the above
-Can request, if interested please contact the developer`
+➪ *Premium student :* _ask owner_`
 DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'PAYMENT 💸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER✶‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
@@ -2901,7 +2895,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• WANT SC? /n CHAT OWNER._`
+scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• WANT SC? \n First please subscribe \n https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A \n take this SC: \n github.com/DGxeon/DogeBot3 \n ._`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
