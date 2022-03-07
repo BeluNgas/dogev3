@@ -597,7 +597,7 @@ menu =
 ││⚘݄ ${gaya1} BIO   : ${bio_user}
 ││⚘݄ ${gaya1} NUMBER : @${senderr.split('@')[0]}
 ││⚘݄ ${gaya1} STATUS : ${isOwner ? 'Owner' : 'User'}`
-│└───────────────┈✶✶
+│└───────────────┈
 │ ❲  INFO BOT  ❳
 │╭───────────❏
 │⎙${gaya1} Speed : ${latensie.toFixed(4)} Second
