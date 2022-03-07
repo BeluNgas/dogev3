@@ -622,10 +622,10 @@ TQ TO DHANI GANS
 TQ TO DEFFBOTS
 TQ TO BELLUNGAS
 TQ TO ADIWAJSHING
-TQ TO ALL
+TQ TO ALL`
 
 teks =
-`Please Select Button Below
+`_Please Select Button Below_
 _If You Are A Mod User_
 _Please Type ${prefix}command_`
 DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: '️❐𝑀𝐸𝑁𝑈' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
