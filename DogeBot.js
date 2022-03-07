@@ -1492,16 +1492,16 @@ menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
 \`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _RM5.00_
-➪ *1 Month :* _RM10.00_
-➪ *Permanent :* _RM25.00_
+➪ *1 Week :* _RM3.00_
+➪ *1 Month :* _RM8.00_
+➪ *Permanent :* _RM10.00_
 
 \`\`\`OPEN FOR STUDENTS :\`\`\`
-➪ *Ordinary student :* _RM20.00_
-➪ *Premium student :* _RM50.00_
+➪ *Ordinary student :* _ask owner_
+➪ *Premium student :* _ask owner_
 
 \`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: RM10.00 (Malaysia)_
+➪ *Wanna buy this script? :* _Price: Free! Just chat owner_
 
 For those who want to buy script or interested in any of the above
 Can request, if interested please contact the developer`
